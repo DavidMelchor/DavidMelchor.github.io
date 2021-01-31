@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h1 {
+  /*border: 1px solid red; */
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+
+p {
+  font-size: 13px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+a, a:visited {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.25);
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+li {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.container {
+  /*border: 1px solid red; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.top {
+    background-color: #CD423F;
+    height: 190px;
+    padding-top: 55px;
+}
+
+.top img {
+  float: left;
+  padding-top: 20px;
+}
+
+.pnormal {
+  padding: 0px 0px 0px 0px;
+}
+
+.mid{
+  background-color: #6E1832;
+  height: 100px;
+}
+
+.mid1{
+  float: left;
+  width: 300px;
+  height: 100px;
+  max-height: 75px;
+  text-align: center;
+  background-color: #892946;
+  padding-top: 25px;
+}
+
+.mid2{
+  float:left;
+  width: 300px;
+  height: 100px;
+  max-height: 75px;
+  padding-right: 45px;
+  padding-left: 45px;
+  text-align: center;
+  background-color: #892946;
+  padding-top: 25px;
+}
+
+.mid3{
+  float:left;
+  width: 300px;
+  height: 100px;
+  max-height: 75px;
+  text-align: center;
+  background-color: #892946;
+  padding-top: 25px;
+}
+
+.bottom {
+    background-color: #404E4D;
+    padding: 40px 0 225px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mid.container.mid1 {
+  padding-right: 50px;
+}
+
+.index-left, .index-right {
+  width: 50%;
+  float: left;
+}
+
+.index-left {
+  margin-bottom: 30px;
+}
+
+.index-right img {
+  padding-top: 40px;
+}
+
+.information {
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+  clear: both;
+}
+
+.h3actividad, .h3creatividad, .h3servicio{
+  text-decoration: underline;
+}
