@@ -12,26 +12,30 @@ h2 {
   font-size: 30px;
   margin-bottom: 15px;
   margin-top: 10px;
-  line-height: 35px;
+  line-height: 40px;
 }
 
 h3 {
-  font-size: 18px;
   margin-bottom: 10px;
   margin-top: 15px;
 }
 
 
 p {
-  font-size: 0.8em;
+  font-size: 1rem;
   padding-bottom: 40px;
-  line-height: 18px;
+  line-height: 1.4rem;
+  text-align: justify;
 }
 
-a, a:visited {
+.pnormal {
   color: white;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:visited {
+  color: inherit;
 }
 
 ol {
@@ -46,12 +50,17 @@ ul {
 li {
   margin-bottom: 15px;
   font-size: 15px;
-  color: white;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: white;
+}
+
+.separador {
+  width: 100%;
+  height: 0.1rem;
+  border-top: 2px solid #f7786b;
+  margin: 40px 0;
 }
 
 .container {
@@ -61,9 +70,10 @@ body {
 }
 
 .top {
-    background-color: #CD423F;
+    background-color: #92a8d1;
     height: 190px;
     padding-top: 55px;
+    color: white;
 }
 
 .top img {
@@ -71,13 +81,11 @@ body {
   padding-top: 20px;
 }
 
-.pnormal {
-  padding: 0px 0px 0px 0px;
-}
-
 .mid{
-  background-color: #6E1832;
+  background-color: #034f84;
   height: 100px;
+  font-size: 1.8rem;
+  color: white;
 }
 
 .mid1{
@@ -86,7 +94,6 @@ body {
   height: 100px;
   max-height: 75px;
   text-align: center;
-  background-color: #892946;
   padding-top: 25px;
 }
 
@@ -98,7 +105,6 @@ body {
   padding-right: 45px;
   padding-left: 45px;
   text-align: center;
-  background-color: #892946;
   padding-top: 25px;
 }
 
@@ -108,13 +114,30 @@ body {
   height: 100px;
   max-height: 75px;
   text-align: center;
-  background-color: #892946;
   padding-top: 25px;
 }
 
-.bottom {
-    background-color: #404E4D;
+.bottomhome {
+    background-color: #f7cac9;
     padding: 40px 0 225px;
+    height: 50rem;
+    color: black;
+}
+
+.bottomprimer_año {
+    background-color: #f7cac9;
+    padding: 40px 0 225px;
+    color: black;
+}
+
+.titulos_indice {
+  font-size: 1.9rem;
+  color: black;
+}
+
+.subtitulos_indice {
+  font-size: 1.6rem;
+  color: black;
 }
 
 .img {
@@ -136,16 +159,26 @@ body {
   margin-bottom: 30px;
 }
 
+.primera_evaluacion {
+  width: 62.5rem;
+  padding-bottom: 2rem;
+}
+
+.segunda_evaluacion {
+  width: 62.5rem;
+  padding-bottom: 2rem;
+  padding-top: 1.2rem;
+}
+
 .index-right img {
   padding-top: 40px;
 }
 
 .information {
-  padding-top: 30px;
-  border-top: 1px solid #eee;
   clear: both;
 }
 
 .h3actividad, .h3creatividad, .h3servicio{
   text-decoration: underline;
+  font-size: 1.3rem;
 }
