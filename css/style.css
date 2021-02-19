@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 h1 {
   /*border: 1px solid red; */
@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
   margin-top: 10px;
   line-height: 40px;
 }
@@ -28,13 +28,7 @@ p {
   text-align: justify;
 }
 
-.pnormal {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-a:visited {
+a, a:visited {
   color: inherit;
 }
 
@@ -88,6 +82,12 @@ body {
   color: white;
 }
 
+.mid a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
 .mid1{
   float: left;
   width: 300px;
@@ -117,13 +117,7 @@ body {
   padding-top: 25px;
 }
 
-.bottomhome {
-    background-color: #f7cac9;
-    padding: 40px 0 225px;
-    color: black;
-}
-
-.bottomprimer_año {
+.bottom {
     background-color: #f7cac9;
     padding: 40px 0 225px;
     color: black;
@@ -150,35 +144,47 @@ body {
   padding-right: 50px;
 }
 
-.index-left, .index-right {
-  width: 50%;
+.index-left {
+  width: 45%;
   float: left;
+  margin-bottom: 30px;
 }
 
-.index-left {
-  margin-bottom: 30px;
+.index-right {
+  width: 55%;
+  float: left;
 }
 
 .primera_evaluacion {
   width: 62.5rem;
-  padding-bottom: 2rem;
 }
 
 .segunda_evaluacion {
   width: 62.5rem;
   padding-bottom: 2rem;
-  padding-top: 1.2rem;
+}
+
+.clear {
+  clear: both;
 }
 
 .index-right img {
   padding-top: 40px;
 }
 
+.fotop2 {
+  margin-top: 16rem;
+}
+
 .information {
   clear: both;
 }
 
+.information h2 {
+  font-weight: bold;
+}
+
 .h3actividad, .h3creatividad, .h3servicio{
-  text-decoration: underline;
+  font-weight: bold;
   font-size: 1.3rem;
 }
