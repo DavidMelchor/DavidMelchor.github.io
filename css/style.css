@@ -139,8 +139,23 @@ body {
 
 .img {
   display: block;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid #DCB2B1;
+}
+
+.imgleft {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  border: 1px solid #DCB2B1;
+}
+
+.imgright {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 4rem;
   border: 1px solid #DCB2B1;
 }
 
