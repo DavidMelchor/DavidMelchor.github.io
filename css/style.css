@@ -151,16 +151,30 @@ body {
   border: 1px solid #DCB2B1;
 }
 
-.imgleft {
+.imgleftprogramar3 {
   margin-top: 2rem;
   margin-left: 4rem;
   margin-right: 1rem;
   border: 1px solid #DCB2B1;
 }
 
-.imgright {
+.imgrightprogramar3 {
   margin-top: 2rem;
   margin-left: 1rem;
+  margin-right: 4rem;
+  border: 1px solid #DCB2B1;
+}
+
+.imgleftigualdad3 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 2rem;
+  border: 1px solid #DCB2B1;
+}
+
+.imgrightigualdad3 {
+  margin-top: 2rem;
+  margin-left: 2rem;
   margin-right: 4rem;
   border: 1px solid #DCB2B1;
 }
