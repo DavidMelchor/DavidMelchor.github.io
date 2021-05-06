@@ -151,14 +151,14 @@ body {
   border: 1px solid #DCB2B1;
 }
 
-.imgleftprogramar3 {
+.imgleftprogramar3 , .imgleftflag3 {
   margin-top: 2rem;
   margin-left: 4rem;
   margin-right: 1rem;
   border: 1px solid #DCB2B1;
 }
 
-.imgrightprogramar3 {
+.imgrightprogramar3 , .imgrightflag3 {
   margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 4rem;
