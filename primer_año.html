@@ -6,13 +6,17 @@
 		<link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  		crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
 	</head>
 
 
 	<body>
 		<div class="top">
 			<div class="container">
-				<img src="img/0/logo_IB.png" height="100" width="100">
+				<img src="img/0/logo_IB.png" height="100" width="100" id="testImgDani">
 				<h1>David Melchor: Documentación de CAS</h1>
 			</div>
 		</div>
@@ -35,72 +39,97 @@
 			<div class="container">
 				<div class="index-left">
 					<div class="primera_evaluacion"><a href="#creatividad"><h3 class="titulos_indice">Primera Evaluación</h3></a>
-						<a href="#creatividad"><h2 class="subtitulos_indice">Creatividad</h2></a>
+						<a id="creatividadboton" class="underlined"><h2 class="subtitulos_indice">Creatividad</h2></a>
 							<ul>
-								<li><a href="#programar1">Actividad 1:</a> Programando mi página web</li>
-								<li><a href="#tabla1">Actividad 2:</a> Diseñando mis propias tablas de ejercicios</li>
+								<li><a id="programar1boton" class="underlined">Actividad 1:</a> Programando mi página web</li>
+								<li><a id="tabla1boton" class="underlined">Actividad 2:</a> Diseñando mis propias tablas de ejercicios</li>
 							</ul>
-						<a href="#actividad"><h2 class="subtitulos_indice">Actividad</h2></a>
+						<a id="actividadboton" class="underlined"><h2 class="subtitulos_indice">Actividad</h2></a>
 							<ul>
-								<li><a href="#gimnasio1">Actividad 1:</a> Gimnasio</li>
-								<li><a href="#flag1">Actividad 2:</a> Flag</li>
-								<li><a href="#tenis1">Actividad 3:</a> Tenis y Padel</li>
+								<li><a id="gimnasio1boton" class="underlined">Actividad 1:</a> Gimnasio</li>
+								<li><a id="flag1boton" class="underlined">Actividad 2:</a> Flag</li>
+								<li><a id="tenis1boton" class="underlined">Actividad 3:</a> Tenis y Padel</li>
 							</ul>
-						<a href="#servicio"><h2 class="subtitulos_indice">Servicio</h2></a>
+						<a id="servicioboton" class="underlined"><h2 class="subtitulos_indice">Servicio</h2></a>
 							<ul>
-								<li><a href="#recogerbasura1">Actividad 1:</a> Recoger basura</li>
+								<li><a id="recogerbasura1boton" class="underlined">Actividad 1:</a> Recoger basura</li>
 							</ul>
 						<div class="separador"></div>
 					</div>
 
 					<div class="segunda_evaluacion"><a href="#creatividad2"><h3 class="titulos_indice">Segunda Evaluación</h3></a>
-						<a href="#creatividad2"><h2 class="subtitulos_indice">Creatividad</h2></a>
+						<a id="creatividad2boton" class="underlined"><h2 class="subtitulos_indice">Creatividad</h2></a>
 							<ul>
-								<li><a href="#origami2">Actividad 1:</a> Haciendo unos origamis</li>
-								<li><a href="#programar2">Actividad 2:</a> Publicando mi página web</li>
-								<li><a href="#iglu2">Actividad 3:</a> Construyendo un iglú</li>
-								<li><a href="#tabla2">Actividad 4:</a> Mejorando mi horario y tablas de<br><br>ejercicios para el gimnasio</li>
+								<li><a id="origami2boton" class="underlined">Actividad 1:</a> Haciendo unos origamis</li>
+								<li><a id="programar2boton" class="underlined">Actividad 2:</a> Publicando mi página web</li>
+								<li><a id="iglu2boton" class="underlined">Actividad 3:</a> Construyendo un iglú</li>
+								<li><a id="tabla2boton" class="underlined">Actividad 4:</a> Mejorando mi horario y tablas de<br><br>ejercicios para el gimnasio</li>
 							</ul>
-						<a href="#actividad2"><h2 class="subtitulos_indice">Actividad</h2></a>
+						<a id="actividad2boton" class="underlined"><h2 class="subtitulos_indice">Actividad</h2></a>
 							<ul>
-								<li><a href="#gimnasio2">Actividad 1:</a> Gimnasio</li>
-								<li><a href="#balonmano2">Actividad 2:</a> Balonmano</li>
-								<li><a href="#voley2">Actividad 3:</a> Voley Playa</li>
-								<li><a href="#presa2">Actividad 4:</a> Ruta por la montaña y presa</li>
-								<li><a href="#baloncesto2">Actividad 5:</a> Baloncesto</li>
-								<li><a href="#lacrosse2">Actividad 6:</a> Lacrosse</li>
+								<li><a id="gimnasio2boton" class="underlined">Actividad 1:</a> Gimnasio</li>
+								<li><a id="balonmano2boton" class="underlined">Actividad 2:</a> Balonmano</li>
+								<li><a id="voley2boton" class="underlined">Actividad 3:</a> Voley Playa</li>
+								<li><a id="presa2boton" class="underlined">Actividad 4:</a> Ruta por la montaña y presa</li>
+								<li><a id="baloncesto2boton" class="underlined">Actividad 5:</a> Baloncesto</li>
+								<li><a id="lacrosse2boton" class="underlined">Actividad 6:</a> Lacrosse</li>
 							</ul>
-						<a href="#servicio2"><h2 class="subtitulos_indice">Servicio</h2></a>
+						<a id="servicio2boton" class="underlined"><h2 class="subtitulos_indice">Servicio</h2></a>
 							<ul>
-								<li><a href="#limpiarnieve2">Actividad 1:</a> Limpiando la nieve de mi urbanización</li>
-								<li><a href="#carta2">Actividad 2:</a> Creando un chirstmas a los ancianos de la residencia</li>
+								<li><a id="limpiarnieve2boton" class="underlined">Actividad 1:</a> Limpiando la nieve de mi urbanización</li>
+								<li><a id="carta2boton" class="underlined">Actividad 2:</a> Creando un chirstmas a los ancianos de la residencia</li>
 							</ul>
 						<div class="separador"></div>
 					</div>
 
 					<div class="tercera_evaluacion"><a href="#creatividad3"><h3 class="titulos_indice">Tercera Evaluación</h3></a>
-						<a href="#creatividad3"><h2 class="subtitulos_indice">Creatividad</h2></a>
+						<a id="creatividad3boton" class="underlined"><h2 class="subtitulos_indice">Creatividad</h2></a>
 							<ul>
-								<li><a href="#origami3">Actividad 1:</a> Origamis gigantes</li>
-								<li><a href="#clubdematematicas3">Actividad 2:</a> Club de matemáticas</li>
-								<li><a href="#programar3">Actividad 3:</a> Programar mi propia página web</li>
-								<li><a href="#clubdeajedrez3">Actividad 4:</a> Club de ajedrez</li>
+								<li><a id="origami3boton" class="underlined">Actividad 1:</a> Origamis gigantes</li>
+								<li><a id="clubdematematicas3boton" class="underlined">Actividad 2:</a> Club de matemáticas</li>
+								<li><a id="programar3boton" class="underlined">Actividad 3:</a> Programar mi propia página web</li>
+								<li><a id="clubdeajedrez3boton" class="underlined">Actividad 4:</a> Club de ajedrez</li>
 							</ul>
-						<a href="#actividad3"><h2 class="subtitulos_indice">Actividad</h2></a>
+						<a id="actividad3boton" class="underlined"><h2 class="subtitulos_indice">Actividad</h2></a>
 							<ul>
-								<li><a href="#gimnasio3">Actividad 1:</a> Gimnasio</li>
-								<li><a href="#presa3">Actividad 2:</a> Ruta por la montaña</li>
-								<li><a href="#snowboard3">Actividad 3:</a> Snowboard</li>
-								<li><a href="#tenis3">Actividad 4:</a> Partidos de tenis</li>
-								<li><a href="#baloncesto3">Actividad 5:</a> Baloncesto</li>
-								<li><a href="#flag3">Actividad 6:</a> Flag</li>
+								<li><a id="gimnasio3boton" class="underlined">Actividad 1:</a> Gimnasio</li>
+								<li><a id="presa3boton" class="underlined">Actividad 2:</a> Ruta por la montaña</li>
+								<li><a id="snowboard3boton" class="underlined">Actividad 3:</a> Snowboard</li>
+								<li><a id="tenis3boton" class="underlined">Actividad 4:</a> Partidos de tenis</li>
+								<li><a id="baloncesto3boton" class="underlined">Actividad 5:</a> Baloncesto</li>
+								<li><a id="flag3boton" class="underlined">Actividad 6:</a> Flag</li>
 							</ul>
-						<a href="#servicio3"><h2 class="subtitulos_indice">Servicio</h2></a>
+						<a id="servicio3boton" class="underlined"><h2 class="subtitulos_indice">Servicio</h2></a>
 							<ul>
-								<li><a href="#clasesparticulares3">Actividad 1:</a> Clases Particulares</li>
-								<li><a href="#igualdad3">Actividad 2:</a> Actividad de igualdad con niños pequeños</li>
-								<li><a href="#recogerbasura3">Actividad 3:</a> Recogiendo basura</li>
+								<li><a id="clasesparticulares3boton" class="underlined">Actividad 1:</a> Clases Particulares</li>
+								<li><a id="igualdad3boton" class="underlined">Actividad 2:</a> Actividad de igualdad con niños pequeños</li>
+								<li><a id="recogerbasura3boton" class="underlined">Actividad 3:</a> Recogiendo basura</li>
 							</ul>
+						<div class="separador"></div>
+					</div>
+
+					<div class="verano"><a href="#verano"><h3 class="titulos_indice">Verano</h3></a>
+						<a id="creatividadveranoboton" class="underlined"><h2 class="subtitulos_indice">Creatividad</h2></a>
+							<ul>
+								<li><a id="kartveranoboton" class="underlined">Actividad 1:</a> Creando un go-kart</li>
+								<li><a id="programarveranoboton" class="underlined">Actividad 2:</a> Actualizando y mejorando mi página web</li>
+							</ul>
+						<a id="actividadveranoboton" class="underlined"><h2 class="subtitulos_indice">Actividad</h2></a>
+							<ul>
+								<li><a id="gimnasioveranoboton" class="underlined">Actividad 1:</a> Gimnasio</li>
+								<li><a id="baloncestoveranoboton" class="underlined">Actividad 2:</a> Baloncesto</li>
+								<li><a id="tenisveranoboton" class="underlined">Actividad 3:</a> Partidos de tenis</li>
+								<li><a id="futbolveranoboton" class="underlined">Actividad 4:</a> Fútbol</li>
+								<li><a id="pingpongveranoboton" class="underlined">Actividad 5:</a> Ping pong</li>
+								<li><a id="biciveranoboton" class="underlined">Actividad 6:</a> Rutas en bici</li>
+								<li><a id="senderismoveranoboton" class="underlined">Actividad 7:</a> Senderismo por montañas en Suiza</li>
+							</ul>
+						<a id="servicioveranoboton" class="underlined"><h2 class="subtitulos_indice">Servicio</h2></a>
+							<ul>
+								<li><a id="veranoboton" class="underlined"Actividad 1:</a> Planeando </li>
+								<li><a id="veranoboton" class="underlined"Actividad 2:</a> Planeando </li>
+							</ul>
+						<div class="separador"></div>
 					</div>
 
 				</div>
@@ -848,8 +877,6 @@
 											Como ya había bastantes profesores, y nos teníamos que organizar todos, me presenté para física, y como el año pasado Daniel Chen fue a mi clase
 											y le conozco personalmente, decidí específicamente enseñarle a él.
 											<br><br>
-											<img class="img"src="img/3/clasesparticulares3.jpeg" width="25%"></img>
-											<br><br>
 											Primero como de verdad quiero ayudarle, le pregunté qué estaban haciendo en ese momento y qué llevaba mejor y peor. Comencé ayudando con teoría
 											ya que su debilidad es la falta de conocimiento del idioma. Mi alumno llegó a España hace ya casi 2 años, pero aún así saber palabras complicadas,
 											especificas de cada materia es algo que aún le falta por aprender. Dediqué dos clases solo a esto, parece mucho pero en el fondo me falta tiempo,
@@ -912,8 +939,263 @@
 										</p>
 								</div>
 								<div class="separador"></div>
-
 				</div>
+
+				<!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación-->
+				<!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación-->
+				<!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación-->
+				<!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación-->
+				<!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación-->
+				<!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación--><!--final tercera evaluación-->
+
+				<div class="information">
+					<h2 id="creatividad">Creatividad</h2>
+						<div id="kartverano" class="kartverano">
+							<h3 class="h3creatividad">Creando un go-kart (25h)</h3>
+								<p>24/07:
+									Desde que acabó la tercera evaluación en mayo, yo me uní a un proyecto que dirigían Álvaro Cameo y Jaime Acosa para hacerlo con ellos. El proyecto
+									era montar un go-kart que funcionaba con energía producida por una oxidación que hacían bacterias y plantas. Ahora mismo diría que todos hacemos
+									lo mismo y estamos al mismo nivel de cargo en el proyecto, aunque Jaime es el más motivado.
+									<br><br>
+									Nos quedamos 3 miércoles por la tarde para estar en el laboratorio y crear esta “batería”. El primer día fue de organización y de pedir ayuda a Elena,
+									ya que es todo química y nos queríamos apoyar en un trabajo que hizo una alumna pasada del colegio. El primer día apuntamos todo lo necesario para
+									montarlo. El siguiente día fuimos al campo a por una planta, la metimos en una botella de agua que cortamos y pusimos dentro tierra con nutrientes
+									y agua. Montamos parte del sistema de botellas y cámaras y dejamos la planta cerca de la ventana para que le diera el sol.
+									<br><br>
+									Finalmente, probamos el sistema pero no dio voltaje por tanto pensamos que habíamos fracasado, pero era porque no supimos utilizar el voltímetro.
+									Pero cuando volvimos dos semanas después, la planta estaba prácticamente muerta, nuestras teorías son que o el verano no lo soportan bien (porque
+									las otras del campo también estaban muy mal) o que unos pulgones mataron a la planta, ya que estaba llena de estos. Decidimos atrasar esta parte
+									del proyecto, y hacerlo bien en septiembre, comprando maceta y planta. Si vuelve a fallar siempre se puede comprar una batería.
+									<br><br>
+									Entonces decidimos que para empezar había que montar parte del chasis del kart, empezamos comprando en el Leroy Merlín tubos de PVC de 2 metros
+									y varios conectores para unir estos tubos. Fuimos a casa de Jaime (estamos construyendo el kart en su garaje) y montamos el chasis serrando tubos
+									y uniéndolos.
+									<br><br>
+									<img class="img"src="img/3/.jpeg" width="40%"></img>
+									<br><br>
+									El día siguiente fue uno largo, primero fuimos al punto limpio de Majadahonda donde preguntamos si tenían ruedas usadas de carretilla, pero no
+									encontramos nada, vimos un par de vídeos de como montar un sistema de viraje para un kart, pero era todo muy caro, y el objetivo del kart era
+									hacerlo todo nosotros al menor coste posible, la estética y potencia no era el objetivo. Y como ese día no teníamos nada más que hacer, fuimos al
+									Leroy Merlin para comparar tubos y precios, y también para ver si había ruedas y tubos que conectasen bien. No compramos nada, pero fue útil el
+									tiempo invertido.
+									<br><br>
+									<img class="img"src="img/3/.jpeg" width="25%"></img>
+									<br><br>
+									El 9 de julio fuimos a casa de Jaime, ahí editamos el chasis inicial, y pensamos cómo crear un sistema de viraje barato. Después de muchas ideas,
+									creamos un sistema muy simple con tubos de PVC más finos para crear un volante, pero acabó siendo uno más bien parecido al de la bici, movimiento para
+									delante y atrás, no rota sobre un eje una rueda. Fuimos al Leroy Merlin de Majadahonda otra vez y compramos tubos, enganches y ruedas para el kart.
+									Volvimos a casa de Jaime para montar lo comprado, y después sorprendentemente funcionó. Como vimos que funcionaba, después de unos retoques, decidimos
+									pegar con un pegamento especial para tubos de PVC los enganches que no se iban a modificar. Estábamos a punto de conseguir que las ruedas de delante
+									giraran y que el kart se pudiera mover para delante si levantábamos la parte de atrás pero hubo un problema, había demasiada flexión en el tubo que
+									unía las ruedas delanteras. Para arreglar esto apuntamos que para el próximo día íbamos a necesitar unos enganches que meteríamos al cortar el tubo
+									en varias partes, cuantos más trozos de menor longitud, menos se dobla.
+									<br><br>
+									29/07:
+									Ayer probablemente fue el último día que vamos a poder montar el kart hasta septiembre, porque no volvemos a coincidir los 3 en todo el verano. Ayer
+									lo que hicimos fue dedicarnos a la parte de atrás del kart. Primero fuimos a comprar lo que necesitabamos otra vez en el Leroy Merlín y volvimos a
+									casa de Jaime para construirlo. Terminamos lo del día anterior que quedaba pendiente (utilizar enganches para evitar la flexión), pero no funcionó,
+									no era suficiente, así que vamos a comprar un barra fina de metal para meterla dentro del tubo. Después montamos las ruedas de atrás, sin ponerle
+									motor ni tracción aún, y ruedan perfectamente. Pero nos encontramos con un problema grande, las ruedas de delante rozaban demasiado al girar, así
+									que hicimos dos ranuras en dos tubos de esta forma:
+									<br><br>
+									<img class="img"src="img/3/.jpeg" width="25%"></img>
+									<br><br>
+									Tardamos muchísimo ya que no tenemos las mejores herramientas (usamos taladros, sierra no mecánica y lija). Pero lo conseguimos. Ahora nos falta el
+									motor, los frenos, la base del kart (colocar y unir varias planchas de madera que tenemos) y comprar esa barra de metal.
+									<br><br>
+									Después de todo me alegro mucho de formar parte de este proyecto, aunque no funcione al final es una muy buena experiencia. Quiero estudiar ingeniería
+									y esto es un buen primer paso. Hay también momentos no tan entretenidos, no se aprecia el tiempo de viajes en autobús de un lugar a otro, al final
+									son muchas horas. Dedicamos la mayoría del tiempo en planear todo y al final poco en construir, pero merece la pena. Finalmente para mí, lo mejor
+									es cuando estamos buscando soluciones a un problema que nos encontramos, por ejemplo, el primer problema fue el volante, y como evitar rozamiento
+									entre tubos que frene la rueda, lo conseguimos al final y fue muy satisfactorio, otros problemas aun no los hemos resuelto, y otros al final son
+									una pérdida de tiempo, intentamos fabricar una pieza serrando tubos para evitar esa flexión del tubo de las ruedas delanteras y no conseguimos
+									nada. Pero al final aunque no funcione es todo muy divertido, sobre todo porque es en equipo, y todos trabajamos y pensamos ideas por igual.
+								</p>
+						</div>
+						<div id="programarverano" class="programarverano">
+							<h3 class="h3creatividad">Actualizando y mejorando mi página web (10h)</h3>
+								<p>6/09:
+									Durante los últimos días he terminado de redactar todo y ahora es el momento de actualizar la página web.
+									<br><br>
+									Primero he añadido el contenido del verano, excepto servicio, de la misma manera que hice el resto de evaluaciones, solo he tenido un problemilla con
+									las imágenes, pero lo arreglo durante estos días. Después he arreglado un par de errores de la página web: la página no se adaptaba bien a otros tipos
+									de pantallas (menos o más pulgadas que la mía) y al hacer click en una actividad en el índice, la parte superior de la página que te permite volver
+									arriba con un click tapaba el título de la actividad.
+									<br><br>
+									<img class="img"src="img/3/.jpeg" width="25%"></img>
+									<br><br>
+									El primero fue muy sencillo, en cambio el segundo me llevó bastante tiempo. Acabé llamando a mi hermano para que me ayudase a programarlo, ya que él
+									está estudiando la carrera de ciencia del software. Tardamos un poco pero lo conseguimos al final después de varios intentos y búsquedas en google.
+									<br><br>
+									Al final este verano no he programado tanto como en otros trimestres, pero este próximo trimestre tengo pensado mejorar la estructura de la página
+									usando más capas con más colores, por ejemplo cada actividad estar enmarcada por un rectángulo y creo que eso facilitará el uso de mi web.
+								</p>
+						</div>
+					</div>
+
+					<div class="separador"></div>
+
+				<div class="information">
+					<h2 id="actividad">Actividad</h2>
+						<div id="gimnasioverano" class="gimnasioverano">
+							<h3 class="h3actividad">Gimnasio (5h por semana)</h3>
+								<p>22/07:
+									Por ahora he ido al gimnasio unas 4 horas por semana, todas las semanas, ya que por COVID no he viajado tanto como otros años. Mi objetivo es hacer
+									6 horas por semana, pero he tenido que estudiar para un examen y no he podido tanto. Pero ahora voy a continuar bien.
+
+									<br><br>
+									Al principio del verano mi objetivo era poder hacerme uno o más “muscle ups” un ejercicio complicado que es una dominada explosiva con la que llegas a
+									ponerte encima de la barra para hacer un fondo. Por ahora no lo he conseguido, pero practico con gomas que te ayudan a subir. Mi segundo objetivo es
+									llegar a 150 kg de peso muerto lo cual a mi me sigue sorprendiendo porque si vuelvo a cuando hable del gimnasio en la primera evaluación dije que podía
+									hacer de máximo 80 kg.
+									<br><br>
+									<video class="img" width="50%" controls>
+										<source src="img/3/gimnasioverano.mp4" type="video/mp4">
+										<source src="img/3/gimnasioverano.ogg" type="video/ogg">
+									</video>
+									<br><br>
+									Ponerse objetivos siempre es bueno porque cuando los consigues es muy motivante, ahí es cuando ves el progreso. Pero a veces también hay escalones que
+									cuesta mucho superar, por ejemplo llevo estancado en 60 kg 5 repeticiones de press de banca durante 3 meses. No lo consigo superar así que he pasado a
+									hacer otros ejercicios que probablemente me ayuden a superarlo. Pero hay otros que si he superado por ejemplo al hacer biceps me quedé durante meses
+									en 7,5 kg por brazo ahora ya por fin lo he subido a 10 kg y poco a poco mejoro.
+									<br><br>
+									<img class="img"src="img/3/gimnasioverano.jpeg" width="30%"></img>
+									<br><br>
+									Para evitar estos escalones, y como es sano en general, estoy empezando a añadir estiramientos por las mañanas, principalmente para  aumentar mi movilidad
+									de hombros que veo que es reducida, y para volverme más “simétrico”, puedo girar más una muñeca que otra.
+									<br><br>
+									Finalmente sigo estando motivado con el gimnasio y creo que va a ser una actividad que me dure varios años más con suerte. También está bien que mi hermano me
+									empuje todos los días y yo a él. Así mejoras más, por muy tonto que parezca. Que él me pregunte: ¿vienes hoy al gimnasio? hace que vaya, a lo mejor ese día me
+									daba pereza pero voy, si no a lo mejor me lo saltaba.
+									<br><br>
+									29/08:
+									Mi hermano ya se ha ido de vuelta a la universidad lo cual me ha desmotivado un poco, un compañero de gimnasio motiva mucho, pero sigo yendo al gimnasio, y ya
+									cumplo bien la dieta. También mis amigos han vuelto al gimnasio después del verano y eso está bien. Finalmente, gracias a cumplir la dieta bien, claramente
+									se notan muchos avances.
+									<br><br>
+									Hace un año empecé a ir al gimnasio, el tiempo se me ha pasado como si nada, y ya el gimnasio es mi rutina. He decidido comparar resultados en este momento
+									y la verdad que me han sorprendido bastante. Empecé muy flaco con un porcentaje de grasa bajísimo, 55kg 10% de grasa corporal, ahora después de solo un año
+									peso 71 kg y tengo un 15% de grasa corporal. Se podría decir que he ganado 11 kilogramos de músculo porque no he ganado prácticamente altura. Claramente he
+									mejorado y esta marca de llevar un año me sorprende hasta a mí.
+								</p>
+						</div>
+						<div id="baloncestoverano" class="baloncestoverano">
+							<h3 class="h3actividad">Baloncesto (8h)</h3>
+								<p>29/08:
+									Este verano he jugado ya 5 veces al baloncesto, no es mi deporte favorito pero voy mejorando y cada vez me gusta más. Lo juego principalmente porque un
+									amigo mío tiene una pista de baloncesto en su urbanización, y al final es un buen plan para un día de verano jugar al baloncesto con amigos y después de
+									sudar por el calor, bañarte en la piscina.
+									<br><br>
+									Solemos ser entre 4 y 7, por lo que no podemos jugar partidos de verdad, pero hacemos partidos de 3 contra 3, partidos de una sola canasta, jugamos al 21
+									y hacemos tiros libres. Para calentar hablamos un rato mientras que tiramos cada uno una vez desde donde queramos. Luego nos dividimos por equipos más
+									o menos nivelados y solemos echar un partido de campo completo aunque sea 3 contra 3. Cuando nos cansamos descansamos un rato y jugamos en solo medio
+									campo (para mí este modo de juego es el más útil porque así practico todo: tiros, regates, correr botando y pases).
+									<br><br>
+									<img class="img"src="img/3/baloncestoverano.jpg" width="55%"></img>
+									<br><br>
+									Cuando alguno se cansa como somos pocos jugamos al 21, un juego que consiste en tirar a encestar el máximo número de veces que puedas, pero solo puedes
+									tirar respetando el orden. Empieza uno desde la línea de tiro libre y si consigue meterla gana 2 puntos y vuelve a tirar desde la línea de tiro libre,
+									si acierta gana un punto y repite, si falla el siguiente tiene que cogerla y desde donde caiga, tirar, por tanto, el objetivo es cogerla lo más rápido
+									posible. Si la metes ganas 2 puntos y tiras desde la línea de tiro libre, si no le toca al siguiente, y así sucesivamente. Si tiras desde la línea de triple
+									vale 3 puntos. El objetivo es llegar a 21 puntos, si te pasas vuelves a 0, si lo consigues ganas.
+									<br><br>
+									Yo creo que he mejorado aunque solo hayamos jugado unas 8 horas. Y cada vez es un deporte que me gusta más, el único problema es que no soy bueno comparado
+									con el resto, así que tengo que practicar más.
+								</p>
+						</div>
+						<div id="tenisverano" class="tenisverano">
+							<h3 class="h3actividad">Partidos de tenis (2h)</h3>
+								<p>05/07:
+									Ayer jugué al tenis con Víctor y con Asier otra vez. Jugamos al tenis todos los trimestres ya que este año Víctor y yo lo hemos dejado porque hemos escogido
+									otras actividades pero queremos mantener nuestro nivel.
+									<br><br>
+									Empezamos calentando jugando a un rey de la pista, con el objetivo de recordar un poco como darle derechas y reveses. Vamos aumentando poco a poco la fuerza
+									y al final cuando todos nos sentimos cómodos (cuando podemos controlar la dirección de la bola y cuando podemos mandarla a la esquina con una fuerza razonable
+									y un ángulo pequeño) pasamos a jugar partidos.
+									<br><br>
+									<img class="img"src="img/3/tenisverano.jpeg" width="40%"></img>
+									<br><br>
+									Echamos a suertes como serán los partidos, esta vez fueron así: Víctor-David, Víctor-Asier y el último Asier-David. El partido entre Víctor y yo estuvo todo el
+									tiempo apuntando a que ganaría yo, ya que el primer juego lo gané por bastante, en cambio, el segundo estuvo muy reñido, el problema que tenemos Víctor y
+									yo es que cuando vemos que es posible perder, dejamos de darle con fuerza y jugamos asegurado por tanto ninguno gana la diferencia de dos. Finalmente gané yo 2-0.
+									Luego fueron Asier y Víctor, Asier suele ser muy bueno en saques pero esta vez no, esta vez fue Víctor. Acabaron 2-1 para Víctor. El partido final fue entre Asier
+									y yo, suelo perder contra Asier pero ese día no se sentía bien con los saques. Al final gané por bastante, 2-0.
+									<br><br>
+									Ese día gané yo, espero mantener el ritmo en los siguientes partidos. Se puede notar como al hacerte mayor ganas fuerza y coordinación, y los deportes se van
+									haciendo más sencillos, generalmente. Aún conozco mis debilidades, principalmente mi revés, así que mi plan es que cuando volvamos a jugar, al menos el calentamiento,
+									lo jugaré solo de revés.
+									<br><br>
+								</p>
+						</div>
+						<div id="futbolverano" class="futbolverano">
+							<h3 class="h3actividad">Fútbol (2h)</h3>
+								<p>22/07:
+									El viernes pasado jugué al fútbol con amigos. Es el deporte que probablemente más les guste a la mayoría. Pero para mí es probablemente el que peor se me da.
+									No soy el peor, pero me siento muy “ortopédico” al jugar ya que no me siento cómodo al correr con la pelota en los pies, por poco casi que me tropiezo al jugar.
+									<br><br>
+									Primero jugamos a un rápido, básicamente un juego en el que se tira a la portería desde medio campo, el portero la intenta parar, pero solo puede empezar desde
+									la línea del área. Si falla el que tira, o el portero se la para, él tiene que correr al área para ser portero, y así sucesivamente. Cuando uno mete, el que no la
+									ha parado queda eliminado. Poco a poco iba ganando puntería pero aún así la mitad de mis tiros no iban ni cerca de la portería.
+									<br><br>
+									<img class="img"src="img/3/futbolverano.jpeg" width="25%"></img>
+									<br><br>
+									Luego jugamos un partido durante 1h. Como éramos pocos, lo nivelamos para jugar 2 contra 3. Yo iba con Álvaro Cameo contra Jaime Acosa, Jaime Mateos y Sergio Robles.
+									Aquí es cuando empecé a notar mejoría, poco a poco me sentía más cómodo, incluso metí una desde medio campo bastante buena por la escuadra. Como éramos tan pocos
+									fue un partido que me cansó muchísimo pero mereció la pena porque ganamos 2 contra 3.
+									<br><br>
+									Terminamos volviendo a jugar un rápido como un descanso, y luego como hacía tanto calor nos refrescamos en la piscina. Lo que he notado es que a pesar de no ser
+									el mejor al esforzarme en mejorar poco a poco juego mejor y al final veo que tanta variedad de deportes me hace mejorar en general. Ahora mi objetivo es aprender
+									a controlar el balón corriendo y mejorar la puntería sin tener que darle fuerte.
+									<br><br>
+									<img class="img"src="img/3/.jpeg" width="25%"></img>
+								</p>
+						</div>
+						<div id="pingpongverano" class="pingpongverano">
+							<h3 class="h3actividad">Ping Pong (4h)</h3>
+								<p>10/07:
+									Los días que he jugado al baloncesto también he jugado al ping pong para descansar, pero pasarmelo bien durante el descanso. Suelo jugar, sin esforzarme mucho,
+									un rey de la pista contra mis amigos. El ping pong si que se me da bien, he jugado todos los veranos de mi vida prácticamente y al final se nota.
+									<br><br>
+									También hacemos partidos y el más reñido suele estar entre Jaime Acosa y yo, pero depende mucho del día que esté teniendo cada uno.
+									<br><br>
+									<img class="imgleftflag3" src="img/3/pingpongverano.jpg" width="40%"></img>
+									<br><br>
+									Un día, cuando nos cansamos de montar el kart (creatividad 1), jugamos al ping pong. Y estos partidos sí que fueron competitivos, nos pasamos 1 hora y media
+									seguida ese día. Al principio ganaba Álvaro todo el tiempo, los primeros partidos si no recuerdo mal fueron Álvaro-yo 21-18 y Álvaro-Jaime 21-17. Luego
+									empezamos a calentar y poco a poco mejoramos, principalmente Jaime y yo. Jaime me ganó el siguiente partido 21-18. Pero yo me notaba mejor, yo soy el mejor
+									cuando voy atacando, le doy rápido y con fuerza varias veces hasta que es prácticamente imposible acertar. Mi debilidad es el revés. Álvaro es constante y
+									Jaime saca muy bien.
+									<br><br>
+									Después llegué a mi pico, Álvaro me ganó 26-24, es decir estuvo súper reñido, y al final ganó él. Luego a Jaime le gané 21-17. Para terminar jugamos un rey
+									de la pista, cada uno tuvo su momento de aguantar 8 veces o así seguidas sin ser ganado. Al final el ping pong es un buen deporte, no cansa mucho y además
+									es muy rápido, por lo que es entretenido aunque no juegues.
+									<br><br>
+
+									29/08:
+									He vuelto a jugar al ping pong y la verdad es que jugar este verano de manera competitiva me ha hecho mejorar, hoy solo he jugado contra 2 amigos pero he
+									jugado muy bien. No ha habido nada especial a resaltar esta vez, ha sido parecido a las otras veces, simplemente mi reto esta vez era ser muy constante y
+									no jugar siempre a darle fuerte, y me ha funcionado muy bien la verdad.
+
+								</p>
+						</div>
+				</div>
+
+				<div class="separador"></div>
+
+				<div class="information">
+					<h2 id="servicio3">Servicio</h2>
+						<div id="" class="">
+							<h3 class="h3servicio">Planeando </h3>
+								<p>
+									<br><br>
+
+									<br><br>
+								</p>
+						</div>
+
+						<div class="separador"></div>
+				</div>
+
 			</div>
 		</div>
 

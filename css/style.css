@@ -51,8 +51,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.underlined {
+  text-decoration: underline;
+}
+
 .separador {
-  width: 100%;
+  width: 64rem;
   height: 0.1rem;
   border-top: 0.125rem solid #f7786b;
   margin: 40px 0;
@@ -84,8 +88,6 @@ body {
   color: white;
   top: 0;
   position: sticky;
-
-
 }
 
 .mid a {
