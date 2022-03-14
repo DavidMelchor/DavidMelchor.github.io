@@ -1,5 +1,6 @@
 $( document ).ready(function() {
-    const extra = 190
+    const extra = 125
+
     $("#programar1boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
         scrollTop: $("#programar1").offset().top - extra
@@ -12,213 +13,267 @@ $( document ).ready(function() {
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#actividadboton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#actividad").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#gimnasio1boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#gimnasio1").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#flag1boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#flag1").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#tenis1boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#tenis1").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#servicio1boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#servicio1").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#recogerbasura1boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#recogerbasura1").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#creatividad2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#creatividad2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#origami2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#origami2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#programar2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#programar2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#iglu2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#iglu2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#tabla2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#tabla2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#actividad2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#actividad2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#gimnasio2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#gimnasio2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#balonmano2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#balonmano2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#voley2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#voley2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#presa2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#presa2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#baloncesto2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#baloncesto2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#lacrosse2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#lacrosse2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#servicio2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#servicio2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#limpiarnieve2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#limpiarnieve2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#carta2boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#carta2").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#creatividad3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#creatividad3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#origami3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#origami3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#clubdematematicas3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#clubdematematicas3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#programar3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#programar3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#clubdeajedrez3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#clubdeajedrez3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#actividad3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#actividad3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#gimnasio3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#gimnasio3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#presa3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#presa3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#snowboard3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#snowboard3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#tenis3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#tenis3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#baloncesto3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#baloncesto3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#flag3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#flag3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#servicio3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#servicio3").offset().top - extra
       }, 2000);
     });
 
-    $("#d").on("click",function() {
+    $("#clasesparticulares3boton").on("click",function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#programar1").offset().top - extra
+        scrollTop: $("#clasesparticulares3").offset().top - extra
+      }, 2000);
+    });
+
+    $("#igualdad3boton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#igualdad3").offset().top - extra
+      }, 2000);
+    });
+
+    $("#recogerbasura3boton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#recogerbasura3").offset().top - extra
+      }, 2000);
+    });
+
+    $("#creatividadveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#creatividadverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#kartveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#kartverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#programarveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#programarverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#actividadveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#actividadverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#gimnasioveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#gimnasioverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#baloncestoveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#baloncestoverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#tenisveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#tenisverano").offset().top - extra
       }, 2000);
     });
 
@@ -227,4 +282,41 @@ $( document ).ready(function() {
         scrollTop: $("#futbolverano").offset().top - extra
       }, 2000);
     });
+
+    $("#pingpongveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#pingpongverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#biciveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#biciverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#senderismoveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#senderismoverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#servicioveranoboton").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#servicioverano").offset().top - extra
+      }, 2000);
+    });
+
+    $("#").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#").offset().top - extra
+      }, 2000);
+    });
+
+    $("#").on("click",function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#").offset().top - extra
+      }, 2000);
+    });
+
 });

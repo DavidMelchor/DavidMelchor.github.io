@@ -29,6 +29,13 @@ p {
   text-align: justify;
 }
 
+.pequeño {
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.4rem;
+  text-align: justify;
+}
+
 a, a:visited {
   color: inherit;
 }
@@ -62,14 +69,39 @@ body {
   margin: 40px 0;
 }
 
+.separador2 {
+  width: 55rem;
+  height: 0.1rem;
+  border-top: 0.125rem solid grey;
+  margin: 3rem 0 3rem 0;
+}
+
 .container {
   /*border: 1px solid red; */
-  max-width: 62.5rem;
+  max-width: 65rem;
   margin: 0 auto;
 }
 
+.container2 {
+  background-color: white;
+  border: 0.1rem solid black;
+  max-width:62rem;
+  margin: auto;
+  padding: 0.15rem 0 0.15rem 0;
+  z-index:2;
+}
+
+.container3 {
+  background-color: #171738;
+  border: 0.1rem solid black;
+  max-width: 55rem;
+  margin: auto;
+  padding: 1rem 3.25rem 1rem 3.25rem;
+  z-index:1;
+}
+
 .top {
-    background-color: #92a8d1;
+    background-color: #171738;
     height: 11.9rem;
     padding-top: 3.44rem;
     color: white;
@@ -81,8 +113,9 @@ body {
 }
 
 .mid{
-  background-color: #034f84;
+  background-color: #36416D;
   height: 6.25rem;
+  /*border: 2px solid white;*/
   width: 100%;
   font-size: 1.8rem;
   color: white;
@@ -131,6 +164,12 @@ body {
     color: black;
 }
 
+.bottom2 {
+    background-color: #6A8BAC ;
+    padding: 2.5rem 0 14.063rem;
+    color: #D7DBDD;
+}
+
 .titulos_grande {
   font-size: 2.5rem;
   padding-bottom: 0.8rem;
@@ -145,12 +184,21 @@ body {
   color: black;
 }
 
+.subtitulos_indice2 {
+  font-size: 1.6rem;
+  color: #ABB2B9;
+}
+
 .img {
   display: block;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #DCB2B1;
+}
+
+.fotofloat {
+  z-index:0;
 }
 
 .imgleftprogramar3 , .imgleftflag3 {
@@ -204,8 +252,19 @@ body {
   margin-bottom: 1.875rem;
 }
 
+.index-left2 {
+  width: 55%;
+  float: left;
+  margin-bottom: 1.875rem;
+}
+
 .index-right {
   width: 55%;
+  float: left;
+}
+
+.index-right2 {
+  width: 45%;
   float: left;
 }
 
@@ -238,7 +297,17 @@ body {
   clear: both;
 }
 
+.information2 {
+  clear: both;
+  border: 1px solid black;
+  padding: 0 1rem 0 1rem;
+}
+
 .information h2 {
+  font-weight: bold;
+}
+
+.information2 h2 {
   font-weight: bold;
 }
 
